@@ -31,7 +31,7 @@ export default createGlobalStyle`
     padding: 40px 20px;
   }
 
-  button: {
+  button {
     cursor: pointer;
   }
 `;
