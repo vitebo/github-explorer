@@ -1,4 +1,5 @@
 {
+  "homepage": "/github-explorer",
   "name": "github-explorer",
   "version": "0.1.0",
   "private": true,
