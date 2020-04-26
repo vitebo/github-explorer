@@ -6,8 +6,11 @@ import Repository from '../pages/Repository';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" exact component={Dashboard} />
-    <Route path="/repositories/:repository+" component={Repository} />
+    <Route path="/github-explorer" exact component={Dashboard} />
+    <Route
+      path="/github-explorer/repositories/:repository+"
+      component={Repository}
+    />
   </Switch>
 );
 

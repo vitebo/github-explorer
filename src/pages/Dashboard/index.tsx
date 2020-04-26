@@ -71,7 +71,7 @@ const Dashboard: React.FC = () => {
       <S.Repositories>
         {repositories.map((repository) => (
           <Link
-            to={`/repositories/${repository.full_name}`}
+            to={`/github-explorer/repositories/${repository.full_name}`}
             key={repository.full_name}
           >
             <img
