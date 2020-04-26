@@ -1,23 +1,25 @@
 ![Deployment](https://github.com/vitebo/github-explorer/workflows/Deployment/badge.svg?branch=master)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/github-explorer/blob/master/LICENSE)
-[![dependencies Status](https://david-dm.org/vitebo/github-explorer/status.svg)](https://david-dm.org/vitebo/github-explorer)
-[![devDependencies Status](https://david-dm.org/vitebo/github-explorer/dev-status.svg)](https://david-dm.org/vitebo/github-explorer?type=dev)
 
-# Github Explorer
+<a href="https://vitebo.github.io/github-explorer/">
+  <img src="./src/assets/logo.svg" />
+</a>
 
-Save your favorite repositories and track your issues
+Save your favorite repositories and track your issues.
+
+[Start by accessing the application to explore repositories on github.](https://vitebo.github.io/github-explorer/)
 
 ## Stack
 
-- boilerplate: [Create React App](https://github.com/facebook/create-react-app)
-- styled: [Styled Components](https://styled-components.com/)
-- client http: [Axios](https://github.com/axios/axios)
-- icon library: [React Icons](https://react-icons.github.io/)
-- router: [React Router](https://github.com/ReactTraining/react-router)
-- language: [TypeScript](https://www.typescriptlang.org/)
-- linter: [Eslint](https://eslint.org/)
-- code formatter: [Prettier](https://prettier.io/)
-- package manager: [Yarn](https://yarnpkg.com/)
+- Package manager: [Yarn](https://yarnpkg.com/)
+- Boilerplate: [Create React App](https://github.com/facebook/create-react-app)
+- Language: [TypeScript](https://www.typescriptlang.org/)
+- Styled: [Styled Components](https://styled-components.com/)
+- Client http: [Axios](https://github.com/axios/axios)
+- Icon library: [React Icons](https://react-icons.github.io/)
+- Router: [React Router](https://github.com/ReactTraining/react-router)
+- Linter: [Eslint](https://eslint.org/)
+- Code formatter: [Prettier](https://prettier.io/)
 
 ## Run the project locally
 
@@ -76,4 +78,4 @@ See [Releases](https://github.com/vitebo/github-explorer/releases) for detailed 
 
 ## License
 
-[MIT License](https://github.com/vitebo/github-explorer/blob/master/LICENSE) © [Vitebo](https://github.com/vitebo)
+[MIT License](https://github.com/vitebo/github-explorer/blob/master/LICENSE) © [vitebo](https://github.com/vitebo)
