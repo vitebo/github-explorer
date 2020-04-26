@@ -1,44 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Deployment](https://github.com/vitebo/github-explorer/workflows/Deployment/badge.svg?branch=master)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/github-explorer/blob/master/LICENSE)
+[![dependencies Status](https://david-dm.org/vitebo/github-explorer/status.svg)](https://david-dm.org/vitebo/github-explorer)
+[![devDependencies Status](https://david-dm.org/vitebo/github-explorer/dev-status.svg)](https://david-dm.org/vitebo/github-explorer?type=dev)
 
-## Available Scripts
+# Github Explorer
 
-In the project directory, you can run:
+Save your favorite repositories and track your issues
 
-### `yarn start`
+## Stack
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- boilerplate: [Create React App](https://github.com/facebook/create-react-app)
+- styled: [Styled Components](https://styled-components.com/)
+- client http: [Axios](https://github.com/axios/axios)
+- icon library: [React Icons](https://react-icons.github.io/)
+- router: [React Router](https://github.com/ReactTraining/react-router)
+- language: [TypeScript](https://www.typescriptlang.org/)
+- linter: [Eslint](https://eslint.org/)
+- code formatter: [Prettier](https://prettier.io/)
+- package manager: [Yarn](https://yarnpkg.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Run the project locally
 
-### `yarn test`
+**1 -** Clone the project:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+$ git clone https://github.com/vitebo/github-explorer.git
+$ cd github-explorer
+$ yarn install
+```
 
-### `yarn build`
+**2 -** Install the dependencies:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+$ git clone https://github.com/vitebo/github-explorer.git
+$ cd github-explorer
+$ yarn install
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**3 -** Runs the app in the development mode:
+```sh
+$ yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folders Structure
 
-### `yarn eject`
+	.
+	└── src/
+	    ├── routes/
+	    ├── styles/
+	    ├── services/
+	    ├── assets/
+	    └── pages/
+	        ├── Dashboard/
+	        └── Repository/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Automatic Tasks
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `yarn start`: Runs the app in the development mode.
+- `yarn test`: Launches the test runner in the interactive watch mode.
+- `yarn build`: Builds the app for production to the **build** folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Versioning
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Find on our [roadmap](https://github.com/vitebo/github-explorer/issues) the next steps of the project ;)
+<br>
+Want to contribute? [Follow these recommendations](https://github.com/vitebo/github-explorer/blob/master/CONTRIBUTING.md).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## History
+
+See [Releases](https://github.com/vitebo/github-explorer/releases) for detailed changelog.
+
+## License
+
+[MIT License](https://github.com/vitebo/github-explorer/blob/master/LICENSE) © [Vitebo](https://github.com/vitebo)
