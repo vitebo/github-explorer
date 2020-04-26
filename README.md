@@ -1,8 +1,8 @@
 ![Deployment](https://github.com/vitebo/github-explorer/workflows/Deployment/badge.svg?branch=master)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/vitebo/github-explorer/blob/master/LICENSE)
 
-<a href="https://vitebo.github.io/github-explorer/">
-  <img src="./src/assets/logo.svg" />
+<a href="https://vitebo.github.io/github-explorer/" style="display: block; margin-bottom: 16px;">
+  <img src="./src/assets/logo.svg" alt="github explorer" />
 </a>
 
 Save your favorite repositories and track your issues.
